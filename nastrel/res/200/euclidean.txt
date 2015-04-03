@@ -1,0 +1,14 @@
+Threshold: 0.9	Score: 0.0		Time: 00h 02m 38s
+Threshold: 0.8	Score: 6.113406552573187E-4		Time: 00h 02m 36s
+Threshold: 0.7	Score: 0.04550398686672547		Time: 00h 02m 35s
+Threshold: 0.6	Score: 0.2904547507044928		Time: 00h 02m 35s
+Threshold: 0.4	Score: 0.7235879854032276		Time: 00h 03m 00s
+Threshold: 0.2	Score: 0.7894618216364954		Time: 00h 03m 11s
+Threshold: 0.0	Score: 0.7894741264591546		Time: 00h 03m 12s
+Neighbourhood: 2	Score: 0.3163336638361216		Time: 00h 02m 35s
+Neighbourhood: 4	Score: 0.34401597744056733		Time: 00h 02m 35s
+Neighbourhood: 8	Score: 0.3697282556810607		Time: 00h 02m 35s
+Neighbourhood: 16	Score: 0.4219829316481257		Time: 00h 02m 36s
+Neighbourhood: 32	Score: 0.48507385083027676		Time: 00h 02m 37s
+Neighbourhood: 64	Score: 0.5428362300231376		Time: 00h 02m 36s
+Neighbourhood: 128	Score: 0.5946775026614802		Time: 00h 02m 38s
