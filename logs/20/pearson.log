@@ -1,0 +1,2730 @@
+[main] INFO org.apache.mahout.cf.taste.impl.model.file.FileDataModel - Creating FileDataModel for file /tmp/tempfile5866391188028601525.tmp
+[main] INFO org.apache.mahout.cf.taste.impl.model.file.FileDataModel - Reading file info...
+[main] INFO org.apache.mahout.cf.taste.impl.model.file.FileDataModel - Processed 1000000 lines
+[main] INFO org.apache.mahout.cf.taste.impl.model.file.FileDataModel - Read lines: 1794383
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+DEBUG: JavaMail version 1.5.0-b01
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-1-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14132ms
+[pool-1-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 987MB / 106032MB
+[pool-1-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9705 cases
+[pool-1-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 13851ms
+[pool-1-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6677MB / 107148MB
+[pool-1-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17006 cases
+[pool-1-thread-24] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11089ms
+[pool-1-thread-24] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4157MB / 107205MB
+[pool-1-thread-24] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 23543 cases
+[pool-1-thread-50] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8306ms
+[pool-1-thread-50] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2896MB / 107207MB
+[pool-1-thread-50] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 27272 cases
+[pool-1-thread-23] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6907ms
+[pool-1-thread-23] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4497MB / 107207MB
+[pool-1-thread-23] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 28977 cases
+[pool-1-thread-34] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5880ms
+[pool-1-thread-34] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4796MB / 107212MB
+[pool-1-thread-34] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 30704 cases
+[pool-1-thread-35] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5111ms
+[pool-1-thread-35] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2264MB / 107209MB
+[pool-1-thread-35] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 31761 cases
+[pool-1-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4473ms
+[pool-1-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8415MB / 107209MB
+[pool-1-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 32613 cases
+[pool-1-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3952ms
+[pool-1-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3056MB / 107221MB
+[pool-1-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 33524 cases
+[pool-1-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3574ms
+[pool-1-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6306MB / 107221MB
+[pool-1-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 33965 cases
+[pool-1-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3245ms
+[pool-1-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9150MB / 107221MB
+[pool-1-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 34440 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.6781740104347632
+0.6781740104347632 00h 11m 00s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP77.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 11:52:27 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP77.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP77.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 20:52:27 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1388918025.1.1429642347262.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_0_580555955.1429642347179"
+
+------=_Part_0_580555955.1429642347179
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_0_580555955.1429642347179
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+
+------=_Part_0_580555955.1429642347179--
+.
+250 2.6.0  <1388918025.1.1429642347262.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP77.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-2-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14218ms
+[pool-2-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9137MB / 107226MB
+[pool-2-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8616 cases
+[pool-2-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 13897ms
+[pool-2-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3203MB / 107250MB
+[pool-2-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15243 cases
+[pool-2-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11124ms
+[pool-2-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1387MB / 107256MB
+[pool-2-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 21098 cases
+[pool-2-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8349ms
+[pool-2-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 654MB / 107268MB
+[pool-2-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 24482 cases
+[pool-2-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6938ms
+[pool-2-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2453MB / 107285MB
+[pool-2-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 26047 cases
+[pool-2-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5910ms
+[pool-2-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2938MB / 107280MB
+[pool-2-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 27641 cases
+[pool-2-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5138ms
+[pool-2-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 387MB / 107296MB
+[pool-2-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 28604 cases
+[pool-2-thread-21] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4495ms
+[pool-2-thread-21] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6733MB / 107296MB
+[pool-2-thread-21] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 29391 cases
+[pool-2-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3990ms
+[pool-2-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1083MB / 107291MB
+[pool-2-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 30224 cases
+[pool-2-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3591ms
+[pool-2-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4602MB / 107291MB
+[pool-2-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 30672 cases
+[pool-2-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3259ms
+[pool-2-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7490MB / 107291MB
+[pool-2-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 31126 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.6854212203657682
+0.6854212203657682 00h 10m 59s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP115.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 12:03:32 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP115.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP115.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 21:03:31 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <2046355912.3.1429643011909.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_2_1099482100.1429643011906"
+
+------=_Part_2_1099482100.1429643011906
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_2_1099482100.1429643011906
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+
+------=_Part_2_1099482100.1429643011906--
+.
+250 2.6.0  <2046355912.3.1429643011909.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP115.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-3-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14316ms
+[pool-3-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7741MB / 107299MB
+[pool-3-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 7738 cases
+[pool-3-thread-3] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 13948ms
+[pool-3-thread-3] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2268MB / 107304MB
+[pool-3-thread-3] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13720 cases
+[pool-3-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11198ms
+[pool-3-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1065MB / 107323MB
+[pool-3-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 19020 cases
+[pool-3-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8390ms
+[pool-3-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 597MB / 107330MB
+[pool-3-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 22096 cases
+[pool-3-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6973ms
+[pool-3-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2626MB / 107326MB
+[pool-3-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 23567 cases
+[pool-3-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5934ms
+[pool-3-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3283MB / 107335MB
+[pool-3-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 25060 cases
+[pool-3-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5164ms
+[pool-3-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 699MB / 107332MB
+[pool-3-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 25945 cases
+[pool-3-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4520ms
+[pool-3-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7108MB / 107332MB
+[pool-3-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 26694 cases
+[pool-3-thread-24] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4014ms
+[pool-3-thread-24] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1490MB / 107340MB
+[pool-3-thread-24] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 27480 cases
+[pool-3-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3612ms
+[pool-3-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4998MB / 107340MB
+[pool-3-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 27914 cases
+[pool-3-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3278ms
+[pool-3-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7924MB / 107340MB
+[pool-3-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 28353 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.6914344116858789
+0.6914344116858789 00h 11m 02s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP14.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 12:14:39 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP14.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP14.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 21:14:38 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1875593993.5.1429643678892.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_4_1644041185.1429643678889"
+
+------=_Part_4_1644041185.1429643678889
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_4_1644041185.1429643678889
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+
+------=_Part_4_1644041185.1429643678889--
+.
+250 2.6.0  <1875593993.5.1429643678892.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP14.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-4-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14282ms
+[pool-4-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8743MB / 107327MB
+[pool-4-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 6955 cases
+[pool-4-thread-11] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 13993ms
+[pool-4-thread-11] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4313MB / 107337MB
+[pool-4-thread-11] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12435 cases
+[pool-4-thread-60] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11260ms
+[pool-4-thread-60] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3922MB / 107339MB
+[pool-4-thread-60] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17245 cases
+[pool-4-thread-25] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8436ms
+[pool-4-thread-25] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3975MB / 107343MB
+[pool-4-thread-25] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 20048 cases
+[pool-4-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7015ms
+[pool-4-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6215MB / 107348MB
+[pool-4-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 21398 cases
+[pool-4-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5971ms
+[pool-4-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7020MB / 107347MB
+[pool-4-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 22795 cases
+[pool-4-thread-4] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5193ms
+[pool-4-thread-4] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4606MB / 107351MB
+[pool-4-thread-4] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 23623 cases
+[pool-4-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4547ms
+[pool-4-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 504MB / 107350MB
+[pool-4-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 24329 cases
+[pool-4-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4038ms
+[pool-4-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5500MB / 107350MB
+[pool-4-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 25080 cases
+[pool-4-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3625ms
+[pool-4-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9194MB / 107350MB
+[pool-4-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 25526 cases
+[pool-4-thread-3] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3298ms
+[pool-4-thread-3] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1420MB / 107354MB
+[pool-4-thread-3] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 25916 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.6972064255034875
+0.6972064255034875 00h 11m 03s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP103.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 12:25:46 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP103.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP103.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 21:25:46 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1580753738.7.1429644346473.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_6_1872482068.1429644346470"
+
+------=_Part_6_1872482068.1429644346470
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_6_1872482068.1429644346470
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+
+------=_Part_6_1872482068.1429644346470--
+.
+250 2.6.0  <1580753738.7.1429644346473.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP103.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-5-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14415ms
+[pool-5-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4307MB / 107338MB
+[pool-5-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5679 cases
+[pool-5-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14129ms
+[pool-5-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1910MB / 107345MB
+[pool-5-thread-64] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10248 cases
+[pool-5-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11346ms
+[pool-5-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3721MB / 107346MB
+[pool-5-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14275 cases
+[pool-5-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8510ms
+[pool-5-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4850MB / 107349MB
+[pool-5-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16668 cases
+[pool-5-thread-43] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7184ms
+[pool-5-thread-43] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7662MB / 107353MB
+[pool-5-thread-43] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17825 cases
+[pool-5-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6025ms
+[pool-5-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8964MB / 107352MB
+[pool-5-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 19057 cases
+[pool-5-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5244ms
+[pool-5-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6778MB / 107356MB
+[pool-5-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 19796 cases
+[pool-5-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4592ms
+[pool-5-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2873MB / 107354MB
+[pool-5-thread-6] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 20429 cases
+[pool-5-thread-47] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4078ms
+[pool-5-thread-47] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7980MB / 107354MB
+[pool-5-thread-47] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 21125 cases
+[pool-5-thread-62] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3669ms
+[pool-5-thread-62] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1022MB / 107357MB
+[pool-5-thread-62] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 21521 cases
+[pool-5-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3376ms
+[pool-5-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4020MB / 107357MB
+[pool-5-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 21913 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7083422581479988
+0.7083422581479988 00h 11m 07s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP232.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 12:36:58 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP232.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP232.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 21:36:58 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <859121326.9.1429645018396.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_8_79653801.1429645018392"
+
+------=_Part_8_79653801.1429645018392
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_8_79653801.1429645018392
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+
+------=_Part_8_79653801.1429645018392--
+.
+250 2.6.0  <859121326.9.1429645018396.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP232.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-6-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14471ms
+[pool-6-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8043MB / 107340MB
+[pool-6-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5218 cases
+[pool-6-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14176ms
+[pool-6-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6776MB / 107346MB
+[pool-6-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9432 cases
+[pool-6-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11393ms
+[pool-6-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9672MB / 107348MB
+[pool-6-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13176 cases
+[pool-6-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8549ms
+[pool-6-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 707MB / 107354MB
+[pool-6-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15391 cases
+[pool-6-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7228ms
+[pool-6-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3852MB / 107353MB
+[pool-6-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16461 cases
+[pool-6-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6056ms
+[pool-6-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5298MB / 107356MB
+[pool-6-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17617 cases
+[pool-6-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5270ms
+[pool-6-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3295MB / 107355MB
+[pool-6-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 18313 cases
+[pool-6-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4616ms
+[pool-6-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10059MB / 107355MB
+[pool-6-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 18925 cases
+[pool-6-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4099ms
+[pool-6-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4613MB / 107358MB
+[pool-6-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 19595 cases
+[pool-6-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3739ms
+[pool-6-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8295MB / 107358MB
+[pool-6-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 19979 cases
+[pool-6-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3392ms
+[pool-6-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 672MB / 107357MB
+[pool-6-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 20358 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7130405225936476
+0.7130405225936476 00h 11m 09s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP51.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 12:48:11 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP51.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP51.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 21:48:11 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <744781183.11.1429645691519.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_10_138805975.1429645691516"
+
+------=_Part_10_138805975.1429645691516
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_10_138805975.1429645691516
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+
+------=_Part_10_138805975.1429645691516--
+.
+250 2.6.0  <744781183.11.1429645691519.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP51.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-7-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14606ms
+[pool-7-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5640MB / 107343MB
+[pool-7-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 4784 cases
+[pool-7-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14313ms
+[pool-7-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5585MB / 107344MB
+[pool-7-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8712 cases
+[pool-7-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11464ms
+[pool-7-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9491MB / 107351MB
+[pool-7-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12199 cases
+[pool-7-thread-39] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8603ms
+[pool-7-thread-39] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1087MB / 107352MB
+[pool-7-thread-39] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14277 cases
+[pool-7-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7266ms
+[pool-7-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4491MB / 107356MB
+[pool-7-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15284 cases
+[pool-7-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6094ms
+[pool-7-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6181MB / 107355MB
+[pool-7-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16363 cases
+[pool-7-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5304ms
+[pool-7-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4337MB / 107358MB
+[pool-7-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17032 cases
+[pool-7-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4646ms
+[pool-7-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 668MB / 107357MB
+[pool-7-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17617 cases
+[pool-7-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4124ms
+[pool-7-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5825MB / 107357MB
+[pool-7-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 18261 cases
+[pool-7-thread-25] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3763ms
+[pool-7-thread-25] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9559MB / 107357MB
+[pool-7-thread-25] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 18630 cases
+[pool-7-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3413ms
+[pool-7-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1976MB / 107359MB
+[pool-7-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 18996 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7178170280637158
+0.7178170280637158 00h 11m 12s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP107.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 12:59:27 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP107.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP107.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 21:59:27 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <688751125.13.1429646367836.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_12_1519775049.1429646367833"
+
+------=_Part_12_1519775049.1429646367833
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_12_1519775049.1429646367833
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+
+------=_Part_12_1519775049.1429646367833--
+.
+250 2.6.0  <688751125.13.1429646367836.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP107.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-8-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14542ms
+[pool-8-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7798MB / 107342MB
+[pool-8-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 4438 cases
+[pool-8-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14246ms
+[pool-8-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8873MB / 107347MB
+[pool-8-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8092 cases
+[pool-8-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11493ms
+[pool-8-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2875MB / 107352MB
+[pool-8-thread-5] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11346 cases
+[pool-8-thread-11] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8621ms
+[pool-8-thread-11] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5623MB / 107355MB
+[pool-8-thread-11] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13302 cases
+[pool-8-thread-18] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7288ms
+[pool-8-thread-18] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9290MB / 107353MB
+[pool-8-thread-18] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14246 cases
+[pool-8-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6113ms
+[pool-8-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 724MB / 107356MB
+[pool-8-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15271 cases
+[pool-8-thread-23] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5324ms
+[pool-8-thread-23] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9500MB / 107356MB
+[pool-8-thread-23] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15897 cases
+[pool-8-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4662ms
+[pool-8-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5836MB / 107358MB
+[pool-8-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16461 cases
+[pool-8-thread-12] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4140ms
+[pool-8-thread-12] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 11147MB / 107358MB
+[pool-8-thread-12] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17086 cases
+[pool-8-thread-12] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3777ms
+[pool-8-thread-12] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4288MB / 107357MB
+[pool-8-thread-12] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17447 cases
+[pool-8-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3427ms
+[pool-8-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7336MB / 107357MB
+[pool-8-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 17801 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7219543612655799
+0.7219543612655799 00h 11m 13s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP56.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 13:10:46 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP56.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP56.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 22:10:46 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1549098767.15.1429647046222.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_14_1550236253.1429647046219"
+
+------=_Part_14_1550236253.1429647046219
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_14_1550236253.1429647046219
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+
+------=_Part_14_1550236253.1429647046219--
+.
+250 2.6.0  <1549098767.15.1429647046222.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP56.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-9-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14561ms
+[pool-9-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3480MB / 107341MB
+[pool-9-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 4112 cases
+[pool-9-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14335ms
+[pool-9-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5141MB / 107349MB
+[pool-9-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 7488 cases
+[pool-9-thread-21] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11525ms
+[pool-9-thread-21] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10907MB / 107350MB
+[pool-9-thread-21] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10568 cases
+[pool-9-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8657ms
+[pool-9-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3477MB / 107356MB
+[pool-9-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12398 cases
+[pool-9-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7314ms
+[pool-9-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7453MB / 107355MB
+[pool-9-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13312 cases
+[pool-9-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6140ms
+[pool-9-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9534MB / 107357MB
+[pool-9-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14285 cases
+[pool-9-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5349ms
+[pool-9-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7955MB / 107357MB
+[pool-9-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14888 cases
+[pool-9-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4683ms
+[pool-9-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4366MB / 107359MB
+[pool-9-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15417 cases
+[pool-9-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4162ms
+[pool-9-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9676MB / 107359MB
+[pool-9-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16017 cases
+[pool-9-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3795ms
+[pool-9-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2884MB / 107358MB
+[pool-9-thread-58] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16370 cases
+[pool-9-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3446ms
+[pool-9-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5933MB / 107358MB
+[pool-9-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 16709 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7257546507997505
+0.7257546507997505 00h 11m 16s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP9.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 13:22:06 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP9.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP9.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 22:22:06 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1091284983.17.1429647726710.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_16_120171709.1429647726707"
+
+------=_Part_16_120171709.1429647726707
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_16_120171709.1429647726707
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+
+------=_Part_16_120171709.1429647726707--
+.
+250 2.6.0  <1091284983.17.1429647726710.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP9.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-10-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14668ms
+[pool-10-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2715MB / 107342MB
+[pool-10-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3883 cases
+[pool-10-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14416ms
+[pool-10-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5239MB / 107349MB
+[pool-10-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 7075 cases
+[pool-10-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11577ms
+[pool-10-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1130MB / 107354MB
+[pool-10-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10009 cases
+[pool-10-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8694ms
+[pool-10-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4778MB / 107356MB
+[pool-10-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11728 cases
+[pool-10-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7357ms
+[pool-10-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9044MB / 107355MB
+[pool-10-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12592 cases
+[pool-10-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6165ms
+[pool-10-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 837MB / 107357MB
+[pool-10-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13528 cases
+[pool-10-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5370ms
+[pool-10-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10018MB / 107357MB
+[pool-10-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14102 cases
+[pool-10-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4705ms
+[pool-10-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6509MB / 107359MB
+[pool-10-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14625 cases
+[pool-10-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4235ms
+[pool-10-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1274MB / 107358MB
+[pool-10-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15209 cases
+[pool-10-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3810ms
+[pool-10-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5089MB / 107358MB
+[pool-10-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15557 cases
+[pool-10-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3459ms
+[pool-10-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8183MB / 107358MB
+[pool-10-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15887 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7289601004051431
+0.7289601004051431 00h 11m 17s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP75.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 13:33:28 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP75.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP75.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 22:33:27 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <201998033.19.1429648407889.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_18_1817585344.1429648407886"
+
+------=_Part_18_1817585344.1429648407886
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_18_1817585344.1429648407886
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+
+------=_Part_18_1817585344.1429648407886--
+.
+250 2.6.0  <201998033.19.1429648407889.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP75.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-11-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14694ms
+[pool-11-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5837MB / 107342MB
+[pool-11-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3688 cases
+[pool-11-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14472ms
+[pool-11-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8803MB / 107349MB
+[pool-11-thread-54] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 6684 cases
+[pool-11-thread-18] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11624ms
+[pool-11-thread-18] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5276MB / 107354MB
+[pool-11-thread-18] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9496 cases
+[pool-11-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8725ms
+[pool-11-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9399MB / 107356MB
+[pool-11-thread-22] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11152 cases
+[pool-11-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7381ms
+[pool-11-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3252MB / 107358MB
+[pool-11-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11974 cases
+[pool-11-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6187ms
+[pool-11-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5787MB / 107357MB
+[pool-11-thread-59] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12871 cases
+[pool-11-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5390ms
+[pool-11-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4518MB / 107359MB
+[pool-11-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13421 cases
+[pool-11-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4722ms
+[pool-11-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1107MB / 107358MB
+[pool-11-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13915 cases
+[pool-11-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4249ms
+[pool-11-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6570MB / 107358MB
+[pool-11-thread-14] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14486 cases
+[pool-11-thread-34] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3823ms
+[pool-11-thread-34] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10379MB / 107358MB
+[pool-11-thread-34] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14825 cases
+[pool-11-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3473ms
+[pool-11-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2886MB / 107360MB
+[pool-11-thread-45] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 15149 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7317315611282406
+0.7317315611282406 00h 11m 18s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP176.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 13:44:50 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP176.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP176.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 22:44:50 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <990622999.21.1429649090584.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_20_1432651709.1429649090581"
+
+------=_Part_20_1432651709.1429649090581
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_20_1432651709.1429649090581
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+
+------=_Part_20_1432651709.1429649090581--
+.
+250 2.6.0  <990622999.21.1429649090584.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP176.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-12-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14801ms
+[pool-12-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1839MB / 107345MB
+[pool-12-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3364 cases
+[pool-12-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14563ms
+[pool-12-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6378MB / 107347MB
+[pool-12-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 6124 cases
+[pool-12-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11714ms
+[pool-12-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4490MB / 107352MB
+[pool-12-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8718 cases
+[pool-12-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8785ms
+[pool-12-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9346MB / 107354MB
+[pool-12-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10244 cases
+[pool-12-thread-50] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7424ms
+[pool-12-thread-50] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3632MB / 107356MB
+[pool-12-thread-50] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11007 cases
+[pool-12-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6229ms
+[pool-12-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6568MB / 107358MB
+[pool-12-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11837 cases
+[pool-12-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5428ms
+[pool-12-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5464MB / 107358MB
+[pool-12-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12350 cases
+[pool-12-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4754ms
+[pool-12-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2223MB / 107360MB
+[pool-12-thread-46] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12811 cases
+[pool-12-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4280ms
+[pool-12-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7738MB / 107360MB
+[pool-12-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13365 cases
+[pool-12-thread-8] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3854ms
+[pool-12-thread-8] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 979MB / 107359MB
+[pool-12-thread-8] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13686 cases
+[pool-12-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3495ms
+[pool-12-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4214MB / 107359MB
+[pool-12-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 14002 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7367079000678691
+0.7367079000678691 00h 11m 20s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP242.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 13:56:15 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP242.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP242.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 22:56:15 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1336008864.23.1429649775235.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_22_1075929572.1429649775232"
+
+------=_Part_22_1075929572.1429649775232
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_22_1075929572.1429649775232
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+
+------=_Part_22_1075929572.1429649775232--
+.
+250 2.6.0  <1336008864.23.1429649775235.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP242.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-13-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14822ms
+[pool-13-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3797MB / 107342MB
+[pool-13-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3248 cases
+[pool-13-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14552ms
+[pool-13-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9208MB / 107349MB
+[pool-13-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5927 cases
+[pool-13-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11764ms
+[pool-13-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8036MB / 107354MB
+[pool-13-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8447 cases
+[pool-13-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8803ms
+[pool-13-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2768MB / 107355MB
+[pool-13-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9928 cases
+[pool-13-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7454ms
+[pool-13-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7925MB / 107358MB
+[pool-13-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10677 cases
+[pool-13-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6260ms
+[pool-13-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10951MB / 107357MB
+[pool-13-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11477 cases
+[pool-13-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5449ms
+[pool-13-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10038MB / 107359MB
+[pool-13-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11982 cases
+[pool-13-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4777ms
+[pool-13-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6819MB / 107358MB
+[pool-13-thread-29] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12429 cases
+[pool-13-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4301ms
+[pool-13-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1823MB / 107360MB
+[pool-13-thread-27] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12973 cases
+[pool-13-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3870ms
+[pool-13-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5748MB / 107360MB
+[pool-13-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13294 cases
+[pool-13-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3515ms
+[pool-13-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8907MB / 107360MB
+[pool-13-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13599 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7384397005160117
+0.7384397005160117 00h 11m 21s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP88.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 14:07:43 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP88.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP88.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 23:07:43 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1004916090.25.1429650463775.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_24_1283157952.1429650463772"
+
+------=_Part_24_1283157952.1429650463772
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_24_1283157952.1429650463772
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+Threshold: 0.15	Score: 0.7384397005160117		Time: 00h 11m 21s
+
+------=_Part_24_1283157952.1429650463772--
+.
+250 2.6.0  <1004916090.25.1429650463775.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP88.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-14-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14854ms
+[pool-14-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9001MB / 107345MB
+[pool-14-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3171 cases
+[pool-14-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14573ms
+[pool-14-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4628MB / 107351MB
+[pool-14-thread-30] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5777 cases
+[pool-14-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11808ms
+[pool-14-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3915MB / 107355MB
+[pool-14-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8228 cases
+[pool-14-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8830ms
+[pool-14-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9637MB / 107357MB
+[pool-14-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9671 cases
+[pool-14-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7475ms
+[pool-14-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4421MB / 107358MB
+[pool-14-thread-57] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10412 cases
+[pool-14-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6275ms
+[pool-14-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7587MB / 107357MB
+[pool-14-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11192 cases
+[pool-14-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5467ms
+[pool-14-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6758MB / 107360MB
+[pool-14-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11677 cases
+[pool-14-thread-60] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4856ms
+[pool-14-thread-60] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3636MB / 107359MB
+[pool-14-thread-60] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12127 cases
+[pool-14-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4316ms
+[pool-14-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9203MB / 107359MB
+[pool-14-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12657 cases
+[pool-14-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3884ms
+[pool-14-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2573MB / 107361MB
+[pool-14-thread-9] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12966 cases
+[pool-14-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3525ms
+[pool-14-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5773MB / 107361MB
+[pool-14-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 13269 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7399717359866164
+0.7399717359866164 00h 11m 23s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP249.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 14:19:10 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP249.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP249.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 23:19:10 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <2035675435.27.1429651150502.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_26_1139218920.1429651150499"
+
+------=_Part_26_1139218920.1429651150499
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_26_1139218920.1429651150499
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+Threshold: 0.15	Score: 0.7384397005160117		Time: 00h 11m 21s
+Threshold: 0.125	Score: 0.7399717359866164		Time: 00h 11m 23s
+
+------=_Part_26_1139218920.1429651150499--
+.
+250 2.6.0  <2035675435.27.1429651150502.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP249.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-15-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14934ms
+[pool-15-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6546MB / 107346MB
+[pool-15-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3082 cases
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14655ms
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2872MB / 107351MB
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5631 cases
+[pool-15-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11811ms
+[pool-15-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3078MB / 107355MB
+[pool-15-thread-55] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 8046 cases
+[pool-15-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8854ms
+[pool-15-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9014MB / 107357MB
+[pool-15-thread-48] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9452 cases
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7494ms
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3859MB / 107358MB
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10179 cases
+[pool-15-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6294ms
+[pool-15-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7151MB / 107358MB
+[pool-15-thread-56] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10931 cases
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5481ms
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6444MB / 107360MB
+[pool-15-thread-32] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11409 cases
+[pool-15-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4868ms
+[pool-15-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3403MB / 107359MB
+[pool-15-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11850 cases
+[pool-15-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4324ms
+[pool-15-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9031MB / 107359MB
+[pool-15-thread-26] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12372 cases
+[pool-15-thread-15] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3892ms
+[pool-15-thread-15] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2427MB / 107361MB
+[pool-15-thread-15] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12675 cases
+[pool-15-thread-42] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3533ms
+[pool-15-thread-42] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5649MB / 107361MB
+[pool-15-thread-42] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12976 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7411565268725133
+0.7411565268725133 00h 11m 24s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP244.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 14:30:38 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP244.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP244.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 23:30:38 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1278778822.29.1429651838707.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_28_1741624376.1429651838704"
+
+------=_Part_28_1741624376.1429651838704
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_28_1741624376.1429651838704
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+Threshold: 0.15	Score: 0.7384397005160117		Time: 00h 11m 21s
+Threshold: 0.125	Score: 0.7399717359866164		Time: 00h 11m 23s
+Threshold: 0.1	Score: 0.7411565268725133		Time: 00h 11m 24s
+
+------=_Part_28_1741624376.1429651838704--
+.
+250 2.6.0  <1278778822.29.1429651838707.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP244.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-16-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14898ms
+[pool-16-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7413MB / 107346MB
+[pool-16-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3049 cases
+[pool-16-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14675ms
+[pool-16-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4402MB / 107351MB
+[pool-16-thread-41] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5539 cases
+[pool-16-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11856ms
+[pool-16-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5047MB / 107355MB
+[pool-16-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 7907 cases
+[pool-16-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8864ms
+[pool-16-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 11248MB / 107357MB
+[pool-16-thread-7] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9289 cases
+[pool-16-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7497ms
+[pool-16-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6310MB / 107358MB
+[pool-16-thread-28] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10002 cases
+[pool-16-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6299ms
+[pool-16-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9795MB / 107358MB
+[pool-16-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10744 cases
+[pool-16-thread-61] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5491ms
+[pool-16-thread-61] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9062MB / 107360MB
+[pool-16-thread-61] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11204 cases
+[pool-16-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4876ms
+[pool-16-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6088MB / 107359MB
+[pool-16-thread-63] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11641 cases
+[pool-16-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4331ms
+[pool-16-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1177MB / 107361MB
+[pool-16-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12154 cases
+[pool-16-thread-53] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3900ms
+[pool-16-thread-53] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5134MB / 107361MB
+[pool-16-thread-53] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12450 cases
+[pool-16-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3541ms
+[pool-16-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8363MB / 107361MB
+[pool-16-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12748 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7420654944344206
+0.7420654944344206 00h 11m 24s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU436-SMTP84.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 14:42:08 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP84.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU436-SMTP84.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 23:42:08 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1003249849.31.1429652528122.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_30_725015365.1429652528118"
+
+------=_Part_30_725015365.1429652528118
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_30_725015365.1429652528118
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+Threshold: 0.15	Score: 0.7384397005160117		Time: 00h 11m 21s
+Threshold: 0.125	Score: 0.7399717359866164		Time: 00h 11m 23s
+Threshold: 0.1	Score: 0.7411565268725133		Time: 00h 11m 24s
+Threshold: 0.075	Score: 0.7420654944344206		Time: 00h 11m 24s
+
+------=_Part_30_725015365.1429652528118--
+.
+250 2.6.0  <1003249849.31.1429652528122.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU436-SMTP84.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-17-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14923ms
+[pool-17-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10688MB / 107346MB
+[pool-17-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 3005 cases
+[pool-17-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14669ms
+[pool-17-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 8289MB / 107351MB
+[pool-17-thread-2] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5468 cases
+[pool-17-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11860ms
+[pool-17-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 9411MB / 107355MB
+[pool-17-thread-38] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 7803 cases
+[pool-17-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8858ms
+[pool-17-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5531MB / 107356MB
+[pool-17-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9189 cases
+[pool-17-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7518ms
+[pool-17-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 11060MB / 107358MB
+[pool-17-thread-19] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9882 cases
+[pool-17-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6309ms
+[pool-17-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 4068MB / 107360MB
+[pool-17-thread-44] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10602 cases
+[pool-17-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5496ms
+[pool-17-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3441MB / 107359MB
+[pool-17-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11058 cases
+[pool-17-thread-39] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4880ms
+[pool-17-thread-39] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 11118MB / 107359MB
+[pool-17-thread-39] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11489 cases
+[pool-17-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4337ms
+[pool-17-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6216MB / 107361MB
+[pool-17-thread-40] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11990 cases
+[pool-17-thread-36] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3903ms
+[pool-17-thread-36] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10243MB / 107361MB
+[pool-17-thread-36] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12284 cases
+[pool-17-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3543ms
+[pool-17-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2858MB / 107360MB
+[pool-17-thread-33] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12577 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.742778212334511
+0.742778212334511 00h 11m 25s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP2.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 14:53:37 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP2.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP2.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Tue, 21 Apr 2015 23:53:37 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <270486964.33.1429653217098.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_32_2103801317.1429653217094"
+
+------=_Part_32_2103801317.1429653217094
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_32_2103801317.1429653217094
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+Threshold: 0.15	Score: 0.7384397005160117		Time: 00h 11m 21s
+Threshold: 0.125	Score: 0.7399717359866164		Time: 00h 11m 23s
+Threshold: 0.1	Score: 0.7411565268725133		Time: 00h 11m 24s
+Threshold: 0.075	Score: 0.7420654944344206		Time: 00h 11m 24s
+Threshold: 0.05	Score: 0.742778212334511		Time: 00h 11m 25s
+
+------=_Part_32_2103801317.1429653217094--
+.
+250 2.6.0  <270486964.33.1429653217098.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP2.smtp.hotmail.com Service closing transmission channel
+Email sent!
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation using 0.8 of FileDataModel[dataFile:/tmp/tempfile5866391188028601525.tmp]
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10000 users
+[main] INFO org.apache.mahout.cf.taste.impl.model.GenericDataModel - Processed 10734 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Beginning evaluation of 10724 users
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Starting timing of 10724 tasks in 64 threads
+[pool-18-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14905ms
+[pool-18-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5599MB / 107343MB
+[pool-18-thread-1] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 2960 cases
+[pool-18-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 14668ms
+[pool-18-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 3870MB / 107349MB
+[pool-18-thread-20] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 5396 cases
+[pool-18-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 11868ms
+[pool-18-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 5433MB / 107353MB
+[pool-18-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 7696 cases
+[pool-18-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 8877ms
+[pool-18-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 1439MB / 107358MB
+[pool-18-thread-16] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9041 cases
+[pool-18-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 7516ms
+[pool-18-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7314MB / 107357MB
+[pool-18-thread-51] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 9744 cases
+[pool-18-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 6308ms
+[pool-18-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 11004MB / 107359MB
+[pool-18-thread-17] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10456 cases
+[pool-18-thread-31] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 5497ms
+[pool-18-thread-31] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10429MB / 107358MB
+[pool-18-thread-31] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 10905 cases
+[pool-18-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4880ms
+[pool-18-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 7576MB / 107360MB
+[pool-18-thread-13] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11329 cases
+[pool-18-thread-4] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 4337ms
+[pool-18-thread-4] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 2709MB / 107360MB
+[pool-18-thread-4] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 11827 cases
+[pool-18-thread-53] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3903ms
+[pool-18-thread-53] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 6735MB / 107360MB
+[pool-18-thread-53] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12115 cases
+[pool-18-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Average time per recommendation: 3541ms
+[pool-18-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Approximate memory used: 10015MB / 107360MB
+[pool-18-thread-52] INFO org.apache.mahout.cf.taste.impl.eval.StatsCallable - Unable to recommend in 12406 cases
+[main] INFO org.apache.mahout.cf.taste.impl.eval.AbstractDifferenceRecommenderEvaluator - Evaluation result: 0.7432493218773863
+0.7432493218773863 00h 11m 25s
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.live.com", port 587, isSSL false
+220 BLU437-SMTP43.smtp.hotmail.com Microsoft ESMTP MAIL Service, Version: 8.0.9200.16384 ready at  Tue, 21 Apr 2015 15:05:06 -0700 
+DEBUG SMTP: connected to host "smtp.live.com", port: 587
+
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP43.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-TLS
+250-STARTTLS
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "TLS", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "OK", arg ""
+STARTTLS
+220 2.0.0 SMTP server ready
+EHLO mandos6.ics.muni.cz
+250-BLU437-SMTP43.smtp.hotmail.com Hello [147.251.9.209]
+250-TURN
+250-SIZE 41943040
+250-ETRN
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-8bitmime
+250-BINARYMIME
+250-CHUNKING
+250-VRFY
+250-AUTH LOGIN PLAIN XOAUTH2
+250 OK
+DEBUG SMTP: Found extension "TURN", arg ""
+DEBUG SMTP: Found extension "SIZE", arg "41943040"
+DEBUG SMTP: Found extension "ETRN", arg ""
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "8bitmime", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: Found extension "VRFY", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH2"
+DEBUG SMTP: Found extension "OK", arg ""
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:<matej.lochman@hotmail.com>
+250 2.1.0 matej.lochman@hotmail.com....Sender OK
+RCPT TO:<matej.lochman@gmail.com>
+250 2.1.5 matej.lochman@gmail.com 
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   matej.lochman@gmail.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Wed, 22 Apr 2015 00:05:06 +0200 (CEST)
+From: matej.lochman@hotmail.com
+To: matej.lochman@gmail.com
+Message-ID: <1736191046.35.1429653906792.JavaMail.lachtan@mandos6.ics.muni.cz>
+Subject: Test Tue Apr 21 20:41:26 CEST 2015 pearson
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_34_1336099554.1429653906789"
+
+------=_Part_34_1336099554.1429653906789
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Test Tue Apr 21 20:41:26 CEST 2015 pearson
+------=_Part_34_1336099554.1429653906789
+Content-Type: text/plain; charset=us-ascii; name="res/20/pearson.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="res/20/pearson.txt"
+
+Threshold: 0.5	Score: 0.6781740104347632		Time: 00h 11m 00s
+Threshold: 0.475	Score: 0.6854212203657682		Time: 00h 10m 59s
+Threshold: 0.45	Score: 0.6914344116858789		Time: 00h 11m 02s
+Threshold: 0.425	Score: 0.6972064255034875		Time: 00h 11m 03s
+Threshold: 0.375	Score: 0.7083422581479988		Time: 00h 11m 07s
+Threshold: 0.35	Score: 0.7130405225936476		Time: 00h 11m 09s
+Threshold: 0.325	Score: 0.7178170280637158		Time: 00h 11m 12s
+Threshold: 0.3	Score: 0.7219543612655799		Time: 00h 11m 13s
+Threshold: 0.275	Score: 0.7257546507997505		Time: 00h 11m 16s
+Threshold: 0.25	Score: 0.7289601004051431		Time: 00h 11m 17s
+Threshold: 0.225	Score: 0.7317315611282406		Time: 00h 11m 18s
+Threshold: 0.175	Score: 0.7367079000678691		Time: 00h 11m 20s
+Threshold: 0.15	Score: 0.7384397005160117		Time: 00h 11m 21s
+Threshold: 0.125	Score: 0.7399717359866164		Time: 00h 11m 23s
+Threshold: 0.1	Score: 0.7411565268725133		Time: 00h 11m 24s
+Threshold: 0.075	Score: 0.7420654944344206		Time: 00h 11m 24s
+Threshold: 0.05	Score: 0.742778212334511		Time: 00h 11m 25s
+Threshold: 0.025	Score: 0.7432493218773863		Time: 00h 11m 25s
+
+------=_Part_34_1336099554.1429653906789--
+.
+250 2.6.0  <1736191046.35.1429653906792.JavaMail.lachtan@mandos6.ics.muni.cz> Queued mail for delivery
+QUIT
+221 2.0.0 BLU437-SMTP43.smtp.hotmail.com Service closing transmission channel
+Email sent!
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...
+
+----------------------------------------------------------------------------------------------------------
+
+Some SCRATCH garbage remains on the node "mandos6.ics.muni.cz" from your previous jobs -- please, CLEAN the following scratches:
+/scratch.shared/lachtan/job_8390549.arien.ics.muni.cz (28 MB)

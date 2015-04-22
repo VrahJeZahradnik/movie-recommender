@@ -1,0 +1,9 @@
+Threshold: 1.0	Score: NaN		Time: 02h 21m 10s
+Threshold: 0.8	Score: NaN		Time: 02h 21m 04s
+Threshold: 0.6	Score: NaN		Time: 02h 21m 22s
+Threshold: 0.4	Score: NaN		Time: 02h 21m 46s
+Threshold: 0.2	Score: 0.7507463253995121		Time: 02h 21m 32s
+Threshold: 0.0	Score: 0.817535550715761		Time: 02h 25m 45s
+Threshold: -0.2	Score: 0.817535550715761		Time: 02h 26m 18s
+Threshold: -0.4	Score: 0.8175355507157418		Time: 02h 27m 37s
+Threshold: -0.6	Score: 0.8175355507157427		Time: 02h 28m 28s

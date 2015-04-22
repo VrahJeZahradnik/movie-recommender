@@ -1,0 +1,11 @@
+Threshold: 1.0	Score: 0.0		Time: 00h 11m 04s
+Threshold: 0.8	Score: 4.1419021218932526E-5		Time: 00h 11m 00s
+Threshold: 0.6	Score: 0.18120035007710197		Time: 00h 11m 01s
+Threshold: 0.4	Score: 0.6601236830362838		Time: 00h 11m 52s
+Threshold: 0.2	Score: 0.7789111087498429		Time: 00h 12m 14s
+Threshold: 0.0	Score: 0.7797582832039947		Time: 00h 12m 16s
+Threshold: -0.2	Score: 0.7797582832039988		Time: 00h 12m 57s
+Threshold: -0.4	Score: 0.7797582832040036		Time: 00h 12m 17s
+Threshold: -0.6	Score: 0.7797582832039888		Time: 00h 12m 16s
+Threshold: -0.8	Score: 0.7797582832039799		Time: 00h 12m 14s
+Threshold: -1.0	Score: 0.7797582832040008		Time: 00h 12m 10s
