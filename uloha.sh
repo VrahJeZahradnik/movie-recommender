@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N recommender-eval
-#PBS -l walltime=2:00:00
+#PBS -l walltime=4:00:00
 #PBS -l nodes=1:ppn=64:nodecpus64#excl
 #PBS -l mem=100gb
 #PBS -j oe
@@ -9,9 +9,9 @@
 trap 'clean_scratch' TERM EXIT
 
 DATADIR="/storage/plzen1/home/$LOGNAME/"
-SRCJAR="20.jar"
+SRCJAR="eval.jar"
 JVMPAR="-server -Xms100g -Xmx100g -da -dsa -XX:NewRatio=9 -XX:+UseParallelGC -XX:+UseParallelOldGC"
-PARAM="-m -t 0.2 -tan"
+PARAM="-f 50 -m -t -w -p"
 RES="res"
 
 module add jdk-7
