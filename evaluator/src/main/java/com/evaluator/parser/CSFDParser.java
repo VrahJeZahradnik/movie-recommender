@@ -1,4 +1,4 @@
-package com.recommender.parser;
+package com.evaluator.parser;
 
 import java.io.BufferedWriter;
 import java.io.File;

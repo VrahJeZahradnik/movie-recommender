@@ -1,4 +1,4 @@
-package com.recommender.mailutil;
+package com.evaluator.mailutil;
 
 import java.util.Date;
 import java.util.Properties;
@@ -18,8 +18,6 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
-
-import com.recommender.evaluator.CSFDEvaluator;
 
 public class MailUtil {
 	
@@ -46,9 +44,8 @@ public class MailUtil {
 		execDate = new Date();
 	}
 
-    public void sendEmail(String methodName) {
+    public void sendEmail(String methodName, String filename) {
     	try {
-    		String filename = CSFDEvaluator.LOG_DIR + methodName + CSFDEvaluator.FILE_OUT_SUFFIX;
     		Message msg = new MimeMessage(session);
             msg.setFrom(new InternetAddress(username));
             msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(mailTo));

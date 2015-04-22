@@ -1,4 +1,4 @@
-package com.recommender.evaluator;
+package com.evaluator.evaluator;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -27,21 +27,22 @@ import org.apache.mahout.cf.taste.recommender.Recommender;
 import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 import org.apache.mahout.common.RandomUtils;
 
+import com.evaluator.mailutil.MailUtil;
 import com.google.common.io.ByteStreams;
-import com.recommender.mailutil.MailUtil;
 
 public class CSFDEvaluator {
 	
 	public static final String MOV_PER_USR = "20";
-	public static final String FILE_IN = "/data/" + MOV_PER_USR + ".dat";
+//	public static final String FILE_IN = "/data/" + MOV_PER_USR + ".dat";
 	public static final String FILE_OUT_SUFFIX = ".txt";
-	public static final String LOG_DIR = "res/" + MOV_PER_USR + "/";
+//	public static final String LOG_DIR = "res/" + MOV_PER_USR + "/";
 	private static final double TEST_DATA = 0.8;
 	private static final double TEST_DATA_SET = 0.01;
 	private static final double FULL_DATA_SET = 1;
 	private static final double THRESH_UP = 1.0;
 	private static final double THRESH_DOWN = -1.0;
-	private static final double[] THRESH_VALS = {0.9, 0.8, 0.7, 0.6, 0.4, 0.2, 0.0};
+	private static final double[] THRESH_VALS = {0.5, 0.475, 0.45, 0.425, 0.375, 0.35, 0.325, 0.3, 0.275, 0.25, 0.225, 0.175, 0.15, 0.125, 0.1, 0.075, 0.05, 0.025};
+//	private static final double[] THRESH_VALS = {1.0, 0.8, 0.6, 0.4, 0.2, 0.0, -0.2, -0.4, -0.6, -0.8, -1.0};
 	private static final int[] NEIGHBOR_VALS = {2, 4, 8, 16, 32, 64, 128};
 	private static final String M_PEARSON= "pearson";
 	private static final String M_EUCLIDEAN= "euclidean";
@@ -57,6 +58,9 @@ public class CSFDEvaluator {
 	private int neighbors;
 	private double thresholdSize;
 	private double dataSet;
+	private String movPerUsr;
+	private String fileIn;
+	private String logDir;
 	
 	private UserSimilarity similarity;
 	private String method;
@@ -75,12 +79,19 @@ public class CSFDEvaluator {
 
 		random = false;
 		mail = false;
+		movPerUsr = MOV_PER_USR;
 		dataSet = FULL_DATA_SET;
 		neighbors = -1;
 		thresholdSize = -2.0;
 		
+		if (args.length > 1 && (args[0].equals("f") || args[0].equals("file"))) {
+			movPerUsr = args[1];
+		} 
+		fileIn = "/data/" + movPerUsr + ".dat";
+		logDir = "res/" + movPerUsr + "/";
+		
 		try {
-			InputStream stream = this.getClass().getResourceAsStream(FILE_IN);
+			InputStream stream = this.getClass().getResourceAsStream(fileIn);
 			model = new FileDataModel(streamToFile(stream));
 //			model = new FileDataModel (new File(FILE_IN));
 			parse(args);
@@ -264,7 +275,7 @@ public class CSFDEvaluator {
 	private void printToFile(Double score, String time) {
 		try {
 			String output;
-			String filename = LOG_DIR + method + FILE_OUT_SUFFIX;
+			String filename = logDir + method + FILE_OUT_SUFFIX;
 			File log = new File(filename);
 			File parentDir = log.getParentFile();
 			if (!parentDir.exists() && !parentDir.mkdirs()) {
@@ -286,7 +297,7 @@ public class CSFDEvaluator {
 			pw.close();
 			
 			if (mailUtil != null) {
-				mailUtil.sendEmail(method);
+				mailUtil.sendEmail(method, filename);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
