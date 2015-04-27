@@ -1,0 +1,139 @@
+body {
+    color: #310C00;
+    background: #F7EAC0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+select, button {
+	border: 0;
+	outline: none;
+	color: #FFF;
+	background: #990000;
+	cursor: pointer;
+}
+
+button:active {
+	background: #400000;
+}
+
+body > header {
+	width: 90%;
+	left: 5%;
+	height: 3em;
+	background: #990000;
+	position: fixed;
+}
+
+body > header > select {
+	height: 100%;
+	width: 14em;
+	border-right: 2px solid #F7EAC0;
+	color: #FFF;
+	font-size: 16px;
+	/*-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;*/
+}
+
+#users-sel > option {
+	/*background: blue;*/
+	height: 1em;
+	padding: 5px;
+}
+
+body > header > div {
+	margin: 14px 4em;
+	float: right;
+	height: 100%;
+	width: 14em;
+	position: relative;
+}
+
+#output {
+	right: -2em;
+	top: 0;
+	color: #360000;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+}
+
+body > header > button {
+	float: right;
+	height: 100%;
+	padding: 1em;
+	color: #FFF;
+	font-size: 16px;
+	border-left: 2px solid #F7EAC0;
+}
+
+#container {
+	width: 90%;
+	margin: auto;
+	padding-top: 5em;
+	/*background: #EBC677;*/
+	/*position: relative;*/
+}
+
+#container > header {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 2em 3em;
+	/*height: 3em;*/
+	margin: auto;
+	background: rgba(153,0,0,0.07);
+	border-radius: 5px;
+	margin-bottom: 2em;
+	z-index: 1;
+}
+
+#movies-sel {
+	float: left;
+	height: 2em;
+	width: 75%;
+}
+
+#container > header > button {
+	height: 2em;
+}
+
+#rating {
+	float:left;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	margin: 0 2em;
+}
+#rating > span {
+	color: #990000;
+	font-size: 1.5em;
+	display: inline-block;
+	position: relative;
+	width: 0.8em;
+}
+#rating > span:hover:before,
+#rating > span:hover ~ span:before {
+	content: "\2605";
+	position: absolute;
+}
+
+#rating > span:active {
+	
+}
+
+#container > div {
+	width: 47%;
+	background: rgba(153,0,0,0.07);
+	border-radius: 5px;
+	padding: 1em;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+	/*position: absolute;*/
+}
