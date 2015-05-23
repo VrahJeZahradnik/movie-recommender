@@ -9,7 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -20,10 +23,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.mahout.cf.taste.common.TasteException;
+import org.apache.mahout.cf.taste.common.Weighting;
 import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.impl.neighborhood.ThresholdUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
-import org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity;
+import org.apache.mahout.cf.taste.impl.similarity.EuclideanDistanceSimilarity;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.model.PreferenceArray;
 import org.apache.mahout.cf.taste.neighborhood.UserNeighborhood;
@@ -33,6 +37,11 @@ import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 
 import com.google.common.io.ByteStreams;
 
+/**
+ * @author Matej Lochman
+ *	This class represents a servlet which serves the HTTP requests and sends them to the recommender.
+ *	The recommender and all source data files are initiated in this class by method init().
+ */
 @SuppressWarnings("serial")
 public class MovieRecommender extends HttpServlet {
 
@@ -57,12 +66,13 @@ public class MovieRecommender extends HttpServlet {
 		counter = 0;
 		try {
 			model = new FileDataModel(loadResourcesToFile(RES_FILE));
-			UserSimilarity similarity = new PearsonCorrelationSimilarity(model);
+			UserSimilarity similarity = new EuclideanDistanceSimilarity(model, Weighting.WEIGHTED);
 			UserNeighborhood nbh = new ThresholdUserNeighborhood(0.8, similarity, model);
 			recommender = new GenericUserBasedRecommender(model, nbh, similarity);
 			
 			movies = new HashMap<Long, String>(getDataFromFile((MOVIES_FILE)));
 			users = new HashMap<Long, String>(getDataFromFile((USERS_FILE)));
+			model.refresh(null); // debug
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (TasteException e) {
@@ -110,6 +120,13 @@ public class MovieRecommender extends HttpServlet {
 
 	}
 
+	/**
+	 * Validate if the rating could be added.
+	 * @param response servlet response
+	 * @param userID	userID
+	 * @param itemID	itemID
+	 * @param value	value of the rating
+	 */
 	private void sendRatingAck(HttpServletResponse response, long userID, long itemID, float value) {
 		PrintWriter writer = null, pw;
 		try {
@@ -128,6 +145,9 @@ public class MovieRecommender extends HttpServlet {
 		}
 	}
 	
+	/**
+	 * Check whether the refresh threshold is reached, if it is, refresh the data model.
+	 */
 	private void checkForRefresh() {
 		if (++counter >= REFRESH_TRESHOLD) {
 			model.refresh(null);
@@ -135,20 +155,43 @@ public class MovieRecommender extends HttpServlet {
 		}
 	}
 
+	/**
+	 * Send the requested data back to the client.
+	 * @param response http response
+	 * @param data	map of data of movies or users
+	 * @param name the name which should be printed in the JSON object
+	 * @throws IOException
+	 */
 	private void sendMessage(HttpServletResponse response, Map<Long, String> data, String name) throws IOException {
 		PrintWriter writer = response.getWriter();
-		writer.print("{\"" + name + "\":[");
+//		writer.print("{\"" + name + "\":[");
+		writer.print("[");
+		// sorting the map by values via linkedlist
+		List<Map.Entry<Long, String>> list = new LinkedList<Map.Entry<Long, String>>(data.entrySet());
+		
+		Collections.sort(list, new Comparator<Map.Entry<Long, String>>() {
+			public int compare(Map.Entry<Long, String> o1, Map.Entry<Long, String> o2) {
+				return (o1.getValue()).compareToIgnoreCase(o2.getValue());
+			}
+		});
+		
 		int i = 0;
-		for (Map.Entry<Long, String> entry : data.entrySet()) {
+		for (Map.Entry<Long, String> entry : list) {
 			if (i > 0) {
 				writer.print(',');
 			}
-            writer.print("{\"name\":\"" + entry.getValue() + "\",\"id\":\"" + entry.getKey() + "\"}");
+            writer.print("[\"" + entry.getKey() + "\",\"" + entry.getValue() + "\"]");
             i++;
         }
-		writer.println("]}");
+		writer.println("]");
 	}
 	
+	/**
+	 * Send all ratings which a user has expressed a rating for.
+	 * @param response http response
+	 * @param userID userID
+	 * @throws IOException
+	 */
 	private void sendMovies(HttpServletResponse response, Long userID) throws IOException {
 		PrintWriter writer = response.getWriter();
 		PreferenceArray prefs;
@@ -167,6 +210,12 @@ public class MovieRecommender extends HttpServlet {
 		writer.println("]}");
 	}
 	
+	/**
+	 * Send recommended movies for a specific user back to the client.
+	 * @param response http response
+	 * @param items iterable of the recommended items
+	 * @throws IOException
+	 */
 	private void sendRecommended(HttpServletResponse response, Iterable<RecommendedItem> items) throws IOException {
 		PrintWriter writer = response.getWriter();
 		writer.print("{\"items\":[");
@@ -192,6 +241,12 @@ public class MovieRecommender extends HttpServlet {
 		doGet(request, response);
 	}
 	
+	/**
+	 * Load data from file and stores them into a map.
+	 * @param file filename
+	 * @return map with the parsed data
+	 * @throws IOException
+	 */
 	private Map<Long, String> getDataFromFile(String file) throws IOException {
 		InputStream stream = this.getServletContext().getResourceAsStream(file);
 		BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
@@ -199,12 +254,17 @@ public class MovieRecommender extends HttpServlet {
 		String line;
 		int i = 0;
 		while ((line = reader.readLine()) != null) {
-			data.put(new Long(i++), line);
+			data.put(new Long(i++), line.substring(0, Math.min(line.length(), 120)));
         }
 		reader.close();
 		return data;
 	}
 	
+	/**
+	 * Loads a resource from within the jar file.
+	 * @param resource resource filepath
+	 * @return returns the requested file
+	 */
 	private File loadResourcesToFile(String resource) {
 		InputStream stream = this.getServletContext().getResourceAsStream(resource);
 		File tempFile = null;
